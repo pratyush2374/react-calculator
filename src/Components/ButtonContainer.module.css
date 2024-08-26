@@ -1,0 +1,23 @@
+.buttonContainer {
+    display: flex;
+    width: 250px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    gap: 5px;
+}
+
+.btn {
+    width: 70px;
+    height: 70px;
+    margin: 3px;
+    border-radius: 20px;
+    font-size: 22px;
+    font-weight: 600;
+    border: 3px groove rgb(202, 202, 202);
+    transition: background-color 0.1s ease-in;
+    
+    &:hover{
+        background-color: rgb(202, 202, 202);
+    }
+}

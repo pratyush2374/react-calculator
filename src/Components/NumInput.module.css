@@ -1,0 +1,9 @@
+.numInput{
+    width: 250px;
+    height: 70px;
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 15px;
+    border: 3px groove rgb(202, 202, 202);
+}
